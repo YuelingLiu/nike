@@ -1,10 +1,12 @@
-import Hero from './sections/Hero';
-import Services from './sections/Services';
-import Subscribe from './sections/Subscribe';
-import SuperQuality from './sections/SuperQuality';
-import Footer from './sections/Footer';
-import PopularProducts from './sections/PopularProducts';
-import SpecialOffer from './sections/SpecialOffer';
+import {
+  Hero,
+  CustomerReviews,
+  Footer,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  SuperQuality,
+} from './sections';
 
 const App = () => (
   <main className="relatice">
